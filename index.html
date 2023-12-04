@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Accessories Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header with Background Image -->
+    <header style="background-image: url('header-background.jpg');">
+        <h1>Welcome to our Car Accessories Store</h1>
+        <p>Find the best accessories for your car!</p>
+    </header>
+
+    <!-- Video Section -->
+    <section class="video-section">
+        <h2>Featured Products</h2>
+        <video width="640" height="360" controls>
+            <source src="product-demo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <!-- Text Description Section -->
+    <section class="text-section">
+        <h2>Why Choose Us?</h2>
+        <p>We offer a wide range of high-quality car accessories to enhance your driving experience. Our products are designed to meet the needs of every car enthusiast.</p>
+    </section>
+
+    <!-- Button Section -->
+    <section class="button-section">
+        <h2>Shop Now!</h2>
+        <a href="#" class="btn">View Products</a>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-section">
+        <h2>Contact Us</h2>
+        <form action="contact.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 Car Accessories Store. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
